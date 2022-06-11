@@ -6,6 +6,16 @@ Writing about tech can be just as important as making it. Developers spend plent
 
 Your task this week is to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
+
+## Table of Contents
+
+- [Discription](#discription)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Functionality](#functionality)
+- [Licence](#licence)
+- [Questions](#question)
+
 ## User Story
 
 ```md
@@ -66,57 +76,39 @@ You’ll also need the [dotenv package](https://www.npmjs.com/package/dotenv) to
 
 **Note**: The [express-session](https://www.npmjs.com/package/express-session) package stores the session data on the client in a cookie. When you are idle on the site for more than a set time, the cookie will expire and you will be required to log in again to start a new session. This is the default behavior and you do not have to do anything to your application other than implement the npm package.
 
-## Grading Requirements
+## Functionality 
 
-This homework is graded based on the following criteria:
+- Find the functionality of the application below:
 
-### Technical Acceptance Criteria: 40%
+    ##### Screenshots
+        -Home page
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+    ![Home Page](./public/images/homepage.png)
 
-    * Application’s folder structure follows the Model-View-Controller paradigm.
+    - Dashboard Demo
 
-    * Uses the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views.
+    ![Dashboard Demo](./public/images/dashboarddemo.png)
 
-    * Application must be deployed to Heroku.
+    - Login Page
 
-### Deployment: 32%
+    ![Login Page](./public/images/loginpage.png)
 
-* Application deployed at live URL.
+    ##### Deployed page
 
-* Application loads with no errors.
+    - To find the deployed application on heroku, Click 👉 [here](https://drive.google.com/file/d/1HlOkOrOcMaXUdJa6Hlq6HS4vbNkA2ROH/view)
 
-* Application GitHub URL submitted.
 
-* GitHub repository contains application code.
+## Licence
 
-### Application Quality: 15%
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-* User experience is intuitive and easy to navigate.
 
-* User interface style is clean and polished.
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+## Question
+For inquiries related to repo and additional questions
 
-### Repository Quality: 13%
+Reach out to me on Github: [DemeSibere](https://github.com/DemeSibere)
 
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
+Email me: demesibere16@gmail.com 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
